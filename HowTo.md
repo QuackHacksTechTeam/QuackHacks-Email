@@ -13,4 +13,4 @@ See .env_example for a template .env file
 
 ## What to Install
 
-npm 
+npm install nodemailer
