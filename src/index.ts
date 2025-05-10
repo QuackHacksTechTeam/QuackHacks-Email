@@ -17,12 +17,12 @@ const main = async () => {
   let recipients: string[];
 
   if (testMode) {
-    recipients = ['danasiamah003@example.com']; // replace with your test email
+    recipients = ['danasiamah003@gmail.com']; // replace with your test email
   } else {
     recipients = await getAllEmails(); // pull from database
   }
 
-  const subject = 'Test Email from QuackHacks';
+  const subject = '3rd Test Email from QuackHacks';
   const message = `TEST TEST TEST 123`;
 
   await sendEmail(recipients, subject, message);

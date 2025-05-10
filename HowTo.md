@@ -31,11 +31,7 @@ npm install mysql2
 
 ## TO RUN
 
-first run:
+run:
 ```bash
-npx tsc
-```
-then run:
-```bash
-node dist/index.js
+npx tsx src/index.ts
 ```
