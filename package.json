@@ -1,13 +1,13 @@
 {
-  "dependencies": {
-    "dotenv": "^16.5.0",
-    "mysql2": "^3.14.0",
-    "nodemailer": "^6.10.1"
+  "name": "quackhacks-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server --prefix backend\" \"npm start --prefix frontend\"",
+    "server": "nodemon"
   },
   "devDependencies": {
-    "@types/node": "^22.14.1",
-    "@types/nodemailer": "^6.4.17",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "concurrently": "^8.0.0",
+    "nodemon": "^3.0.0"
   }
 }

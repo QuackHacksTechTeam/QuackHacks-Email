@@ -30,8 +30,14 @@ npm install mysql2
 ```
 
 ## TO RUN
+npm install in the backend and frontend
 
-run:
+in backend run:
 ```bash
-npx tsx src/index.ts
+npx ts-node src/index.ts
+```
+
+in frontend run:
+```bash
+npm start
 ```
